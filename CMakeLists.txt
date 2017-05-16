@@ -166,5 +166,5 @@ include_directories(
 add_executable(beliefstate_node src/node.cpp ${src})
 target_link_libraries(beliefstate_node ${catkin_LIBRARIES})
 
-# add_executable(beliefstate_class src/node_class.cpp ${src})
-# target_link_libraries(beliefstate_class ${catkin_LIBRARIES})
+add_executable(beliefstate_class src/node_class.cpp ${src})
+target_link_libraries(beliefstate_class ${catkin_LIBRARIES})
